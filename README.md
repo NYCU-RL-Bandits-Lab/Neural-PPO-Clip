@@ -3,19 +3,29 @@
 ### Install process:
 - System: Using docker image pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime
 
-```docker(or podman) run -it pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime```
+```
+docker(or podman) run -it pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime
+```
 
 - Update system: 
 
-```apt-get update```
+```
+apt-get update
+```
 
-```apt-get install gcc g++ cmake git vim zlib1g zlib1g-dev swig```
+```
+apt-get install gcc g++ cmake git vim zlib1g zlib1g-dev swig
+```
 
 - Install python packages:
 
-```pip install --upgrade pip```
+```
+pip install --upgrade pip
+```
 
-```pip install -r requirement.txt```
+```
+pip install -r requirements.txt
+```
 
 
 ### Training command:
